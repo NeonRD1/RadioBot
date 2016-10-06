@@ -1,0 +1,63 @@
+!createbot &music @📻|RadioBot ^!help [@📻\|RadioBot|@RadioBot] -> Version 1.62β | This bot is currently in beta! Please report bugs by !notify @Neon.
+@📻|RadioBot is a simple radio plugin for &music, made by @Neon. 
+I will immediately turn off when someone queues a song. 
+
+I support multiple commands:
+!help @📻|RadioBot or @RadioBot
+!ping @📻|RadioBot or @RadioBot
+!ping 
+!radio on - Turns me on to a random channel
+!radio off - Turns me off
+!channels - Lists all available channels;
+
+^!channels -> Here's a list of all the channels I can provide (the "|" separates alternative names, you can use any of them to tune to that channel):
+◉ !radio Mcat|Monstercat|EDM 1|90.1 
+    90.1 | Monstercat EDM Channel
+◉ !radio GoodLife|Deep House 1|Chill 1|Tropical 1|90.3 
+    90.3 | The Good Life - Deep & Tropical House, Chill, Dance
+◉ !radio Chillhop|Cafe|Chill 2|Hiphop 1|90.7
+    90.7 | The Chillhop Cafe - Chill & Hiphop Beats
+◉ !radio Ambient 1|Chill 3|90.9
+    90.9 | Chillout Relaxing Ambient Music Channel
+◉ !radio Mainstage|Pop 1|91.1
+    91.1 | Mainstage - The Best Pop Hits
+◉ !radio Instrumental|91.3 
+    91.3 | Relaxing Instrumentals Channel
+◉ !radio Relax|RelaxTube|Smooth Jazz 1|91.7 
+    91.7 | RelaxTube - Smooth Jazz, Bossa Nova, and more
+◉ !radio NASA|Ambient 2|Space|91.9  
+    91.9 | Earth From Space - The ISS Music Station
+◉ !radio Jellyfish|Ambient 3|92.1
+    92.1 | Ambient Jellyfish - Sponsored by Monterey Bay Aquarium
+◉ !radio Mixhound|Mixh|Chill 4|Melodic Dubstep 1|House 1|Future Bass 1|92.3 
+    92.3 | Mixhound - Chill, Melodic Dubstep, House, and Future Bass
+◉ !radio Punjabi|92.5 
+    92.5 | 24/7 Punjabi
+◉ !radio Magical|MM|Deep House 2|Chill 5|Tropical 2|92.7
+    92.7 | Magical Music - Deep House, Chill, and Tropical Mixes
+◉ !radio ChillTracks|Chill 6|Rap 1|Hiphop 2|92.9
+    92.9 | Chill Tracks - Rap, Chill, Hiphop, RNB, and more
+◉ !radio Club|Techno 1|Deep House 2|House 2|93.1
+    93.1 | Club Music Station - Techno, House, and Deep House EDM
+◉ !radio Lonely Fox|Deep House 3|Future House 1|93.3 
+    93.3 | The Lonely Fox - Deep House Radio;
+
+^!ping -> *channel static*;
+^!ping [@📻\|RadioBot|@RadioBot] -> *This is a test of the emergency broadcast system...*;
+^!radio on -> [!q https://m.youtube.com/watch?v=4R-JGw3VTuY, !q https://m.youtube.com/watch?v=uNN6Pj06Cj8, !q https://m.youtube.com/watch?v=mx6t6E24SSM, !q https://m.youtube.com/watch?v=vX66Z2xi5iQ, !q https://m.youtube.com/watch?v=jaQIMKvBv1k, !q https://m.youtube.com/watch?v=OH8VJixTqZ8, !q https://www.youtube.com/watch?v=ik0X7ZsrBmA, !q https://m.youtube.com/watch?v=UGPuEDyAsU8, !q https://www.youtube.com/watch?v=ceP_zvyM3A4, !q https://m.youtube.com/watch?v=dxVzsVFAw34, !q https://m.youtube.com/watch?v=ZE--LVvzi2E, !q https://m.youtube.com/watch?v=AJHpV_tzQlU, !q https://m.youtube.com/watch?v=jBKsIeEE8N4, !q https://m.youtube.com/watch?v=_cRWkf7MUfo, !q https://m.youtube.com/watch?v=WGW884cJG_o];
+^!radio off -> !q https://m.youtube.com/watch?v=Vbks4abvLEw;
+^!radio (Mcat|Monstercat|EDM\s?1|90.1) -> !q https://m.youtube.com/watch?v=4R-JGw3VTuY;
+^!radio (GoodLife|Deep\s?House\s?1|Chill\s?1|Tropical\s?1|90.3) -> !q https://m.youtube.com/watch?v=uNN6Pj06Cj8;
+^!radio (Chillhop|Cafe|Chill\s?2|Hiphop\s?1|90.7) -> !q https://m.youtube.com/watch?v=mx6t6E24SSM;
+^!radio (Ambient\s?1|Chill\s?3|90.9) -> !q https://m.youtube.com/watch?v=vX66Z2xi5iQ;
+^!radio (Mainstage|Pop\s?1|91.1) -> !q https://m.youtube.com/watch?v=jaQIMKvBv1k;
+^!radio (Instrumental|91.3) -> !q https://m.youtube.com/watch?v=OH8VJixTqZ8;
+^!radio (Relax|RelaxTube|Smooth\s?Jazz\s?1|91.7) -> !q https://www.youtube.com/watch?v=ik0X7ZsrBmA;
+^!radio (NASA|Ambient\s?2|Space|91.9) -> !q https://m.youtube.com/watch?v=UGPuEDyAsU8;
+^!radio (Jellyfish|Ambient\s?3|92.1) -> !q https://www.youtube.com/watch?v=ceP_zvyM3A4;
+^!radio (Mixhound|Mixh|Chill\s?4|Melodic\s?Dubstep\s?1|House\s?1|Future\s?Bass\s?1|92.3) -> !q https://m.youtube.com/watch?v=dxVzsVFAw34;
+^!radio (Punjabi|92.5) -> !q https://m.youtube.com/watch?v=ZE--LVvzi2E;
+^!radio (Magical|MM|Deep House 2|Chill 5|Tropical 2|92.7) -> !q https://m.youtube.com/watch?v=AJHpV_tzQlU;
+^!radio (ChillTracks|Chill 6|Rap 1|Hiphop 2|92.9) -> !q https://m.youtube.com/watch?v=jBKsIeEE8N4;
+^!radio (Club|Techno 1|Deep House 2|House 2|93.1) -> !q https://m.youtube.com/watch?v=_cRWkf7MUfo;
+^!radio (Lonely Fox|Deep House 3|Future House 1|93.3) -> !q https://m.youtube.com/watch?v=WGW884cJG_o;
