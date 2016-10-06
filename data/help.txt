@@ -1,0 +1,16 @@
+@📻|RadioBot is a simple radio plugin for &music
+
+Version 1.62β | This bot is currently in beta! Please report bugs by !notify @ Neon.
+I will immediately turn off when someone queues a song. 
+
+I support multiple commands:
+!help @📻|RadioBot or @RadioBot
+!ping @📻|RadioBot or @RadioBot
+!ping 
+!radio on - Turns me on to a random channel
+!radio off - Turns me off
+!channels - Lists all available channels
+
+Created by @ Neon with assistance from @ EtchingInElectrons. Please contact about any issues.
+This bot also conforms to Euphoria Bot Standards.
+Last update 2016-10-06
