@@ -21,13 +21,13 @@ class PlaylistBot(eu.ping_room.PingRoom, eu.standard_room.StandardRoom, eu.nick_
         #this calls the inherited __init__ for PingRoom and StandardRoom giving us basic functionality
         super().__init__(roomname, password)
         
-        self.nickname = "📻|RadioBot"
+        self.nickname = "📻|EtchyRadioBot"
         self.nickreference = "@" + self.nickname
         self.paused = False
 
                
         #load help file and create short help text from the first line
-        with open("data/help.txt", 'r') as f:
+        with open("data/help.txt", 'r', encoding='utf8') as f:
             self.help_text = f.read()
         self.short_help_text = self.help_text.split('\n')[0] + " Use !help {} for more detailed help.".format(self.nickreference)
         self.logger.info("Loaded help file")
